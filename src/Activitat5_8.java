@@ -1,8 +1,4 @@
 import java.util.Arrays;
-<<<<<<< HEAD
-
-=======
->>>>>>> 2c8bcff21165345b6f5c4e2b1577c844d63a8095
 public class Activitat5_8 {
     public static void main(String[] args) {
         int[] arrayA = {10, 20, 30, 40, 50};
