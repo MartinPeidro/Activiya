@@ -39,7 +39,7 @@ public class Activitat5_9 {
         }
     }
     public static void visualizarMaximo(int[] array){
-        int mayor = 0;
+        int mayor = array[0];
         for (int x = 1; x < array.length; x++) {
             int numeroActual = array[x];
             if ( numeroActual > mayor ) {
@@ -49,7 +49,7 @@ public class Activitat5_9 {
         System.out.println(mayor);
     }
     public static void visualizarMinimo(int[] array){
-        int menor = 0;
+        int menor = array[0];
         for (int x = 1; x < array.length; x++) {
             int numeroActual = array[x];
             if ( numeroActual < menor ) {
